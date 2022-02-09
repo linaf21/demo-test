@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo-test';
+  myVar = 'Hola Mundo';
+  saludo = "Hola Lina";
+
+  public sumar(n1: number, n2:number):number{
+    return n1+n2;
+  }
+
+  public par(n1: number): boolean{
+    return n1%2==0?true:false;
+  }
 }
